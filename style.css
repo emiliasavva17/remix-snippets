@@ -1,0 +1,31 @@
+.list {
+  width: 300px;
+}
+.snippet-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  padding: 5px 15px;
+  color: darkgray;
+  text-decoration: none;
+}
+.add-snippet-link {
+  color: white;
+  background-color: darkcyan;
+  text-decoration: none;
+
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+.all a {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.aside-nav .active {
+  /* content: ; */
+  color: darkcyan;
+  font-weight: bold;
+  border-bottom: 2px solid darkcyan;
+}
